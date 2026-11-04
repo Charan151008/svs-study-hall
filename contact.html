@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact and Enquire at SVS Study Hall in Labbipet, Vijayawada.">
+  <meta name="theme-color" content="#101d35">
+  <title>SVS Study Hall | Contact & Enquire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span class="live-dot"></span> A dedicated study space for every student · Open 24 hours</div>
+  
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="SVS Study Hall home">
+      <span class="brand-mark">SVS</span>
+      <span class="brand-copy"><strong>SVS Study Hall</strong><small>STUDY • FOCUS • GROW</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="location.html">Location</a>
+      <a class="nav-cta active" href="contact.html">Enquire now <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section" id="contact" style="padding-top: 60px; padding-bottom: 80px;">
+      <div class="section-wrap contact-grid">
+        <div class="contact-copy">
+          <div class="section-kicker light-kicker">GET IN TOUCH</div>
+          <h2>Ready to make<br>time for <em>your goals?</em></h2>
+          <p>Have a question about desk availability, facilities, or membership options? Reach out directly or send us an enquiry below.</p>
+
+          <!-- CONTACT DETAILS LIST -->
+          <div style="margin-top: 30px; display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+              <span style="font-size: 18px; color: #dfbd7c;">⌖</span>
+              <div>
+                <strong style="color: white; font-size: 13px; display: block;">Address</strong>
+                <p style="color: #c0c9d6; font-size: 12px; margin: 4px 0 0; line-height: 1.6;">
+                  39-9-30, Sri Venkateswara Swamy Temple St,<br>
+                  Labbipet, Vijayawada, Andhra Pradesh 520010
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+              <span style="font-size: 18px; color: #dfbd7c;">✆</span>
+              <div>
+                <strong style="color: white; font-size: 13px; display: block;">Phone / WhatsApp</strong>
+                <p style="color: #c0c9d6; font-size: 12px; margin: 4px 0 0;">
+                  +91  8988819222
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+              <span style="font-size: 18px; color: #dfbd7c;">✉</span>
+              <div>
+                <strong style="color: white; font-size: 13px; display: block;">Email</strong>
+                <p style="color: #c0c9d6; font-size: 12px; margin: 4px 0 0;">
+                  svsstudyhalltv@gmail.com
+                </p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+              <span style="font-size: 18px; color: #dfbd7c;">◷</span>
+              <div>
+                <strong style="color: white; font-size: 13px; display: block;">Working Hours</strong>
+                <p style="color: #c0c9d6; font-size: 12px; margin: 4px 0 0;">
+                  Open 24 Hours · 7 Days a Week
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="enquiry-form">
+          <h3>Send an enquiry</h3>
+          <p>Fill in your details and continue to WhatsApp.</p>
+          <label for="student-name">Your name</label><input id="student-name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="student-phone">Mobile number</label><input id="student-phone" name="phone" type="tel" inputmode="tel" placeholder="Enter your mobile number" required>
+          <label for="student-message">How can we help?</label><textarea id="student-message" name="message" rows="3" placeholder="I'm interested in study hall membership..." required></textarea>
+          <button class="button button-gold submit-button" type="submit">Continue to WhatsApp <span>↗</span></button>
+          <small class="form-note">Your enquiry will open in WhatsApp for you to send.</small>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">SVS</span><span class="brand-copy"><strong>SVS Study Hall</strong><small>STUDY • FOCUS • GROW</small></span></a>
+      <p>A dedicated study space for students in Labbipet, Vijayawada.</p>
+      <a href="#contact" class="back-top">Back to top ↑</a>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> SVS Study Hall. All rights reserved.</span><span>Made for focus. Built for your goals.</span></div>
+  </footer>
+
+  <a class="floating-whatsapp" id="whatsapp-link" href="#" aria-label="Chat with SVS Study Hall on WhatsApp" title="Chat on WhatsApp">✆</a>
+  <script src="script.js"></script>
+</body>
+</html>
